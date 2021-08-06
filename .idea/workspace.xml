@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="add furniture methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="update json file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627921103652</updated>
       <workItem from="1627921105271" duration="7245000" />
-      <workItem from="1628193107563" duration="4765000" />
+      <workItem from="1628193107563" duration="5046000" />
     </task>
     <task id="LOCAL-00001" summary="add furniture model">
       <created>1628008596611</created>
@@ -67,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628282641649</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add furniture methods">
+      <created>1628283336968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628283336968</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update json file">
+      <created>1628283417820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628283417820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add furniture model" />
     <MESSAGE value="add furniture methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add furniture methods" />
+    <MESSAGE value="update json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update json file" />
   </component>
 </project>
