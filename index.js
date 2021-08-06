@@ -1,6 +1,6 @@
 const  express =require('express');
 const mongoose =require('mongoose');
-url='mongodb://localhost/Ikea';
+url='mongodb://localhost/Ikea'||process.env.MONGODB_URI;
 const port=process.env.PORT ||2000;
 const app=express();
  mongoose.connect(url,{useNewUrlParser:true});
