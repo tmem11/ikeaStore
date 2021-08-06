@@ -4,7 +4,7 @@ const  Type=require('../models/Type');
 router.get('/',async (req,res)=>{
     try {
         const types= await Type.find()
-        res.json(types)
+        res.json("hi")
     }
     catch (e) {
         res.send(e);
