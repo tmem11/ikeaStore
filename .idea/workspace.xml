@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="update json file" />
+    <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="update json file">
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627921103652</updated>
       <workItem from="1627921105271" duration="7245000" />
-      <workItem from="1628193107563" duration="5710000" />
+      <workItem from="1628193107563" duration="6062000" />
     </task>
     <task id="LOCAL-00001" summary="add furniture model">
       <created>1628008596611</created>

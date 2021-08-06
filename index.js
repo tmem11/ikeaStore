@@ -1,7 +1,7 @@
 const  express =require('express');
 const mongoose =require('mongoose');
 url='mongodb://localhost/Ikea';
-const port=process.env.PORT ||5000
+const port=process.env.PORT ||2000;
 const app=express();
  mongoose.connect(url,{useNewUrlParser:true});
 const con=mongoose.connection
@@ -18,7 +18,7 @@ app.use('/furnitures',furnituresRouter);
 
 
 app.listen(port,()=>{
-    console.log('connected to server');
+    console.log('connected to server',port);
 })
 
 
