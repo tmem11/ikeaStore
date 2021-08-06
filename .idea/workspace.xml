@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Furniture.js" afterDir="false" />
+    <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="add furniture model">
+      <change afterPath="$PROJECT_DIR$/routes/furnitures.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Furniture.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Furniture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Type.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Type.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +54,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627921103652</updated>
-      <workItem from="1627921105271" duration="7189000" />
+      <workItem from="1627921105271" duration="7245000" />
+      <workItem from="1628193107563" duration="4249000" />
     </task>
+    <task id="LOCAL-00001" summary="add furniture model">
+      <created>1628008596611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628008596611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add furniture model" />
+    <option name="LAST_COMMIT_MESSAGE" value="add furniture model" />
   </component>
 </project>

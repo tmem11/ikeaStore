@@ -6,3 +6,4 @@ const typesSchema= new mongoose.Schema({
      }
 })
 module.exports=mongoose.model('Type',typesSchema);
+

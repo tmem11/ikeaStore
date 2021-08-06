@@ -21,6 +21,18 @@ router.get('/:id',async (req,res)=>{
     }
 
 })
+router.patch('/:id',async (req,res)=>{
+    try {
+        const type= await Type.findById(req.params.id)
+        type.name=req.body.name
+        const t1=await type.save()
+        res.json(t1)
+    }
+    catch (e) {
+        res.send(e);
+    }
+
+})
 router.post('/' , async (req,res)=>{
     const type=new Type({
         name:req.body.name
@@ -36,4 +48,15 @@ router.post('/' , async (req,res)=>{
     }
 
 })
+router.delete('/:id',async (req,res)=>{
+    try {
+        await Type.findByIdAndDelete(req.params.id)
+        res.json("success")
+    }
+    catch (e) {
+        res.send(e);
+    }
+
+})
+
 module.exports=router

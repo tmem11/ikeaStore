@@ -10,6 +10,9 @@ con.on('open',()=>{
 const typesRouter=require('./routes/types');
 app.use(express.json())
 app.use('/types',typesRouter);
+const furnituresRouter=require('./routes/furnitures');
+app.use(express.json())
+app.use('/furnitures',furnituresRouter);
 
 
 
