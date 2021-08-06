@@ -1,15 +1,16 @@
 const  express =require('express');
 const router=express.Router()
 const  Type=require('../models/Type');
-router.get('/',async (req,res)=>{
-    try {
-        const types= await Type.find()
-        res.json("hi")
-    }
-    catch (e) {
-        res.send(e);
-    }
-    
+router.get('/', (req,res)=>{
+    // try {
+    //     const types= await Type.find()
+    //     res.json("hi")
+    // }
+    // catch (e) {
+    //     res.send(e);
+    // }
+    //
+    res.send('test');
 })
 router.get('/:id',async (req,res)=>{
     try {
