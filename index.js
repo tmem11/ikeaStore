@@ -3,7 +3,7 @@ const mongoose =require('mongoose');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsDoc=require('swagger-jsdoc')
 var cors = require('cors')
-const port=process.env.PORT || 4800;
+const port=process.env.PORT || 4200;
 const app=express();
 app.use(cors())
 app.use(express.json())
@@ -18,12 +18,12 @@ const swaggerOptions = {
     definition: {
         openapi: '3.0.0',
         info: {
-            title: 'Hello World',
+            title: 'Ikea Store Api',
             version: '1.0.0',
         },
         servers: [
             {
-                url: "http://localhost:4800/",
+                url: "http://localhost:4200/",
             },
         ],
     },
@@ -38,18 +38,7 @@ const furnituresRouter=require('./routes/furnitures');
 app.use(express.json())
 app.use('/furnitures',furnituresRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument,{ explorer: true }));
-//aa
-/**
- * @swagger
- * /test:
- * get:
- * description: to test
- * responses:
- *  '200':
- *         done!!
- *
- *
- */
+
 
 
 

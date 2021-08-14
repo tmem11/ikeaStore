@@ -46,6 +46,8 @@ const  Type=require('../models/Type');
  *               items:
  *                 $ref: '#/components/schemas/Type'
  */
+
+
 router.get('/', async (req,res)=>{
     try {
         const types= await Type.find()
@@ -57,6 +59,30 @@ router.get('/', async (req,res)=>{
 
 
 })
+/**
+ * @swagger
+ * /types/{id}:
+ *   get:
+ *     summary: Get the types by id
+ *     tags: [Types]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: The type id
+ *     responses:
+ *       200:
+ *         description: The type description by id
+ *         contens:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Type'
+ *       404:
+ *         description: The type was not found
+ */
+
 router.get('/:id',async (req,res)=>{
     try {
         const type= await Type.findById(req.params.id)
@@ -79,6 +105,29 @@ router.patch('/:id',async (req,res)=>{
     }
 
 })
+/**
+ * @swagger
+ * /types:
+ *   post:
+ *     summary: Create a new types
+ *     tags: [Types]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/Type'
+ *     responses:
+ *       200:
+ *         description: The book was successfully created
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Type'
+ *       500:
+ *         description: Some server error
+ */
+
 router.post('/' , async (req,res)=>{
     const type=new Type({
         name:req.body.name
@@ -94,10 +143,30 @@ router.post('/' , async (req,res)=>{
     }
 
 })
+/**
+ * @swagger
+ * /types/{id}:
+ *   delete:
+ *     summary: Remove the type by id
+ *     tags: [Types]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: The type id
+ *
+ *     responses:
+ *       200:
+ *         description: The type was deleted
+ *       404:
+ *         description: The type was not found
+ */
 router.delete('/:id',async (req,res)=>{
     try {
         await Type.findByIdAndDelete(req.params.id)
-        res.json("success")
+        res.json("type was deleted")
     }
     catch (e) {
         res.send(e);
