@@ -166,7 +166,7 @@ router.post('/' , async (req,res)=>{
 router.delete('/:id',async (req,res)=>{
     try {
         await Type.findByIdAndDelete(req.params.id)
-        res.json("type was deleted")
+        res.json("type was delet")
     }
     catch (e) {
         res.send(e);
