@@ -3,7 +3,7 @@ const mongoose =require('mongoose');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsDoc=require('swagger-jsdoc')
 
-const port=process.env.PORT || 2000;
+const port=process.env.PORT || 4800;
 const app=express();
 app.use(express.json())
  mongoose.connect('mongodb+srv://new_user:JZMJ8BODYPIBJKUx@cluster0.i0wo2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
@@ -22,7 +22,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: "http://localhost:2000/",
+                url: "http://ikea-store-api.herokuapp.com/",
             },
         ],
     },
