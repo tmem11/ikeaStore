@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="update json file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/furnitures.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,9 @@
       <option name="presentableId" value="Default" />
       <updated>1627921103652</updated>
       <workItem from="1627921105271" duration="7245000" />
-      <workItem from="1628193107563" duration="7829000" />
+      <workItem from="1628193107563" duration="8683000" />
+      <workItem from="1628459371250" duration="62000" />
+      <workItem from="1628966434610" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="add furniture model">
       <created>1628008596611</created>
@@ -97,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

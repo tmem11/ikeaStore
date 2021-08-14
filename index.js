@@ -1,9 +1,13 @@
 const  express =require('express');
 const mongoose =require('mongoose');
+//mongodb+srv://new_user:<password>@cluster0.i0wo2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+//JZMJ8BODYPIBJKUx
+
 url='mongodb://localhost/Ikea'||process.env.MONGODB_URI;
-const port=process.env.PORT ||2000;
+const port=process.env.PORT || 3000;
 const app=express();
- mongoose.connect(url,{useNewUrlParser:true});
+ mongoose.connect('mongodb+srv://new_user:JZMJ8BODYPIBJKUx@cluster0.i0wo2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+     ,{useNewUrlParser:true,useUnifiedTopology:true});
 const con=mongoose.connection
 con.on('open',()=>{
     console.log('connected to the database!')
@@ -17,7 +21,7 @@ app.use('/furnitures',furnituresRouter);
 
 
 
-app.listen(process.env.PORT || 3000,()=>{
+app.listen(port,()=>{
     console.log('connected to server',port);
 })
 

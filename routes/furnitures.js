@@ -25,8 +25,12 @@ router.get('/:id',async (req,res)=>{
 })
 router.post('/' , async (req,res)=>{
     const furniture=new Furniture({
-        name:req.body.name,
-        types:req.body.types
+        color:req.body.color,
+        types:req.body.types,
+        price:req.body.price,
+        codeNumber:req.body.codeNumber,
+        measurs:req.body.measurs
+
     })
     try {
 
