@@ -15,8 +15,9 @@ con.on('open',()=>{
 })
 
 const swaggerOptions = {
-    definition: {
-        openapi: '3.0.0',
+    apis: ["./routes/*js"],
+    swaggerDefinition: {
+        openapi: '3.0.1',
         info: {
             title: 'Ikea Store Api',
             version: '1.0.0',
@@ -27,7 +28,7 @@ const swaggerOptions = {
             },
         ],
     },
-    apis: ["./routes/*js"],
+
 
 };
 let swaggerDocument;
