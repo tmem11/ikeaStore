@@ -19,7 +19,6 @@ const  Type=require('../models/Type');
  *           type: string
  *           description: The type name
  *       example:
- *         id: 61180f4902fe53affbd43c2a
  *         name: table
  */
 
@@ -43,8 +42,7 @@ const  Type=require('../models/Type');
  *           application/json:
  *             schema:
  *               type: array
- *               items:
- *                 $ref: '#/components/schemas/Type'
+
  */
 
 
@@ -105,6 +103,51 @@ router.patch('/:id',async (req,res)=>{
     }
 
 })
+
+/**
+ * @swagger
+ * /types/{id}:
+ *  put:
+ *    summary: Update the type by the id
+ *    tags: [Types]
+ *    parameters:
+ *      - in: path
+ *        name: id
+ *        schema:
+ *          type: string
+ *        required: true
+ *        description: The type id
+ *    requestBody:
+ *      required: true
+ *      content:
+ *        application/json:
+ *          schema:
+ *            $ref: '#/components/schemas/Type'
+ *    responses:
+ *      200:
+ *        description: The type was updated
+ *        content:
+ *          application/json:
+ *            schema:
+ *              $ref: '#/components/schemas/Type'
+ *      404:
+ *        description: The type was not found
+ *      500:
+ *        description: Some error happened
+ */
+router.put('/:id',async (req,res)=>{
+    try {
+        const type= await Type.findById(req.params.id)
+        type.name=req.body.name
+        type.id=req.params.id
+        const t1=await type.save()
+        res.json(t1)
+    }
+    catch (e) {
+        res.send(e);
+    }
+
+})
 /**
  * @swagger
  * /types:
@@ -119,7 +162,7 @@ router.patch('/:id',async (req,res)=>{
  *             $ref: '#/components/schemas/Type'
  *     responses:
  *       200:
- *         description: The book was successfully created
+ *         description: The type was successfully created
  *         content:
  *           application/json:
  *             schema:
