@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="add controller to the Type model">
+    <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="fixes in Types CRUD&#10;add swagger docs to Types CRUD&#10;add crud operations to the Furniture model&#10;add swagger docs to Furniture CRUD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Type.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Type.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/furnitures.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/types.js" afterDir="false" />
     </list>
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wB9R1lXhQFwsBTqKLq11munAsp" />
@@ -43,6 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +64,7 @@
       <workItem from="1628193107563" duration="8683000" />
       <workItem from="1628459371250" duration="62000" />
       <workItem from="1628966434610" duration="10452000" />
-      <workItem from="1629027438619" duration="5803000" />
+      <workItem from="1629027438619" duration="9905000" />
     </task>
     <task id="LOCAL-00001" summary="add furniture model">
       <created>1628008596611</created>
@@ -115,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628980882747</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixes in Types CRUD&#10;add swagger docs to Types CRUD&#10;add crud operations to the Furniture model&#10;add swagger docs to Furniture CRUD">
+      <created>1629199436363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629199436363</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +156,7 @@
     <MESSAGE value="added cors" />
     <MESSAGE value="update the url of the servers" />
     <MESSAGE value="add controller to the Type model" />
-    <option name="LAST_COMMIT_MESSAGE" value="add controller to the Type model" />
+    <MESSAGE value="fixes in Types CRUD&#10;add swagger docs to Types CRUD&#10;add crud operations to the Furniture model&#10;add swagger docs to Furniture CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes in Types CRUD&#10;add swagger docs to Types CRUD&#10;add crud operations to the Furniture model&#10;add swagger docs to Furniture CRUD" />
   </component>
 </project>

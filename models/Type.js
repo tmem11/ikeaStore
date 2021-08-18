@@ -4,6 +4,8 @@ const typesSchema= new mongoose.Schema({
          type:String,
          required:true
      }
-})
+}
+, {versionKey:'_somethingElse'}
+)
 module.exports=mongoose.model('Type',typesSchema);
 
