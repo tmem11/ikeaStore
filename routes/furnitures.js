@@ -1,7 +1,6 @@
 const  express =require('express');
 const router=express.Router()
 const  Furniture=require('../models/Furniture');
-const  types=require('../models/Type');
 
 /**
  * @swagger

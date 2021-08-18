@@ -2,8 +2,8 @@ const  express =require('express');
 const mongoose =require('mongoose');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsDoc=require('swagger-jsdoc')
-var cors = require('cors')
-const port=process.env.PORT || 4200;
+const cors = require('cors');
+const port=process.env.PORT || 4400;
 const app=express();
 app.use(cors())
 app.use(express.json())
@@ -24,7 +24,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: "http://localhost:4200/",
+                url: "https://ikea-store-api.herokuapp.com/",
             },
         ],
     },
