@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dada078-428d-4fe2-87bb-99bb21487309" name="Default Changelist" comment="fixes in Types CRUD&#10;add swagger docs to Types CRUD&#10;add crud operations to the Furniture model&#10;add swagger docs to Furniture CRUD">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Type.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Type.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/furnitures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="tmem11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

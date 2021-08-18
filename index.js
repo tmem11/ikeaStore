@@ -24,7 +24,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: "https://ikea-store-api.herokuapp.com/",
+                url: "http://ikea-store-api.herokuapp.com/"      ,
             },
         ],
     },
